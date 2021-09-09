@@ -20,7 +20,7 @@ export default function CourseList() {
                 { courses.map( (course, index) => <li key={index}> {course}</li>) }
             </ul>
             <button type="button" onClick={addCourse}>
-                add
+                add course
             </button>
       
         </>
